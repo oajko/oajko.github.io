@@ -11,5 +11,37 @@
       <h1>Portfolio Page</h1>
       <h2>Data science portfolio page - a collection and showcase of my work</h2>
     </div>
+    
+    <div id = 'classification_datasets'>
+      <h3>Classification Datasets</h3>
+      <div classname = 'box_fill'>
+        <h4><a href = 'https://www.kaggle.com/competitions/home-credit-default-risk'>Home Credit Kaggle Dataset</a></h4>
+        <p>
+          This is my go at the Home Credit default risk dataset on Kaggle (click the link below). The dataset is a classification problem on tabular data with 7 different training datasets and over 2GB of raw data.
+          I crafted over 2300 features from the initial 210 features, and employed EDA on all 7 training datasets. With the sheer volume of data - with notebook memory limits, I had to optimize memory usage via algorithms
+          and data structures.
+        </p>
+        <a href = 'https://www.kaggle.com/code/alanc52/home-credit-work-eda-and-model'>Link to my notebook - 17/09/24</a>
+      </div>
+      
+      <div classname = 'box_fill'>
+        <h4><a href = 'https://www.kaggle.com/competitions/porto-seguro-safe-driver-prediction'>Porto Seguro Kaggle Dataset</a></h4>
+        <p>
+          In this dataset, I had to predict if someone files an insurance claim next year - binary classification. The dataset consists of unlabelled data of over 100 features, and unbalanced train and test data (around 2x
+          more unlabelled data to predict than test data). And the dataset consisted of a unique target metric - normalized gini coefficient, to standard/ common objective.
+        </p>
+        <a href = 'https://www.kaggle.com/code/alanc52/porto-seguro-dataset-workthrough'>Link to my notebook - 29/08/24</a>
+      </div>
+
+      <div classname = 'box_fill'>
+        <h4><a href = 'https://www.kaggle.com/competitions/icr-identify-age-related-conditions'>Age Related Conditions Prediction dataset</a></h4>
+        <p>
+          This dataset I had to predict if the instance has one of three age conditions or not. The data consisted of roughly 50 unlabelled features, and an external dataset of 4 features. And a very small number of
+          training data - just over 600 instances. With the objective function of minimizing weighted multiclass loss. The combination of both made the objective function/ vocal point of not overfitting the model.
+        </p>
+        <a href = 'https://www.kaggle.com/code/alanc52/refined-age-conditions'>Link to my notebook - 10/08/24</a>
+      </div>
+      
+    </div>
   </body>
 </html>
