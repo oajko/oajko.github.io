@@ -2,4 +2,7 @@ body {
   background-color: Canvas;
   color: CanvasText;
   color-scheme: light dark;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%
 }
